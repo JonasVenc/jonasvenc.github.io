@@ -42,6 +42,14 @@
   src="https://js.sentry-cdn.com/1a5322196ea8f674bcabc02b2323db46.min.js"
   crossorigin="anonymous"
 ></script>
+
+<script>
+  Sentry.onLoad(function() {
+    Sentry.init({
+        // You can add any additional configuration here
+      });
+  });
+</script>
     
 </head>
   
